@@ -30,6 +30,11 @@ RUN code-server --install-extension mblode.twig-language-2
 RUN code-server --install-extension dssiqueira.drupal-8-snippets
 RUN code-server --install-extension tsega.drupal-8-twig-snippets
 
+# Set some git config
+RUN git config --global user.name "Aaron Froehlich"
+RUN git config --global user.email "aaronfroehlich@gmail.com"
+RUN git config --global alias.co checkout
+
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
 
