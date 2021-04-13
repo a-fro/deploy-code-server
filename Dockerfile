@@ -28,7 +28,7 @@ RUN code-server --install-extension ikappas.composer
 RUN code-server --install-extension dmitrydorofeev.empty-indent
 RUN code-server --install-extension mblode.twig-language-2 
 RUN code-server --install-extension dssiqueira.drupal-8-snippets
-RUN code-server --install-extension tsega.drupal-8-twig-snippet
+RUN code-server --install-extension tsega.drupal-8-twig-snippets
 
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
