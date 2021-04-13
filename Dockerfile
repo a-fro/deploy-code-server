@@ -27,7 +27,7 @@ RUN sudo chown -R coder:coder /home/coder/.local
 RUN code-server --install-extension ikappas.composer
 RUN code-server --install-extension dmitrydorofeev.empty-indent
 RUN code-server --install-extension mblode.twig-language-2 
-RUN code-server --install-extension dssiqueria.drupal-8-snippets
+RUN code-server --install-extension dssiqueira.drupal-8-snippets
 RUN code-server --install-extension tsega.drupal-8-twig-snippet
 
 # Install apt packages:
